@@ -1,0 +1,29 @@
+.navbar {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding: 1.8rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 200;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+        color: #fff;
+    }
+
+    .navbar__links {
+        margin-right: 4rem;
+        display: flex;
+        gap: 1.5rem;
+
+        .navbar__link {
+            background-color: rgba(42, 42, 42, 0.3);
+            padding: .3rem;
+            border-radius: .5rem;
+        }
+    }
+}

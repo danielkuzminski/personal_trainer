@@ -55,8 +55,7 @@ export default function Home() {
 
 						<h2 className='section3__title'>Twój trening</h2>
 						<h4 className='section3__subtitle'>
-							Czy marzysz o lepszej kondycji fizycznej, zdrowszym trybie życia i
-							zwiększonej pewności siebie?
+							Czy marzysz o lepszej kondycji fizyczneji zdrowszym trybie życia?
 						</h4>
 						<p className='section3__text'>
 							Dzięki indywidualnie dostosowanym planom treningowym i motywującemu

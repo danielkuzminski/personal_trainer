@@ -12,7 +12,6 @@ export default function Navbar() {
 				<Link className="navbar__link" to="/">Główna</Link>
 				<Link className="navbar__link">O mnie</Link>
 				<Link className="navbar__link">Blog</Link>
-				<Link className="navbar__link">Galeria</Link>
 				<Link className="navbar__link">Kontakt</Link>
 			</div>
 		</nav>

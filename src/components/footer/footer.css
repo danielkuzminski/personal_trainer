@@ -1,6 +1,6 @@
 .foot {
     width: 100vw;
-    height: 8vh;
+    height: 12vh;
     /* background-color: #f8c3e6; */
     display: flex;
     align-items: center;
@@ -9,22 +9,18 @@
     .foot__contact {
         margin-left: 4rem;
         display: flex;
-        gap: 1.8rem;
-
-        i {
-            font-size: 2.9rem;
-            cursor: pointer;
-        }
+        gap: 2.5rem;
     }
 
     .foot__social {
         display: flex;
         gap: 1.8rem;
         margin-right: 4rem;
+    }
 
-        i {
-            font-size: 2.9rem;
-            cursor: pointer;
-        }
+    .foot__img {
+        width: 3rem;
+        height: 3rem;
+        cursor: pointer;
     }
 }

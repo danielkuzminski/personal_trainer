@@ -1,0 +1,38 @@
+.about {
+	min-height: 100vh;
+	width: 100vw;
+	display: flex;
+	background-color: rgba(0, 0, 0, 0.6);
+
+	.about__left {
+		flex: 1;
+		background-image: url("../../assets/trainer_about.jpeg");
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.about__right {
+		flex: 2;
+		margin: 8rem 6rem 4rem 6rem;
+
+		.about__title {
+			-webkit-text-stroke: 2px hotpink;
+			font-size: 5.5rem;
+			text-align: right;
+			font-weight: 700;
+			color: transparent;
+			text-transform: uppercase;
+			letter-spacing: 1.5px;
+			margin-bottom: 2rem;
+			/* padding: 10rem 0 2rem 0; */
+		}
+
+		.about__text {
+			font-size: 1.4rem;
+			margin-bottom: 2rem;
+			color: #fff;
+			text-indent: 2rem;
+		}
+	}
+}

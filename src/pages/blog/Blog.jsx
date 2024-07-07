@@ -25,8 +25,16 @@ export default function Blog() {
 						dotyczącymi uniknięcia najczęstszych błędów, które mogą prowadzić do
 						kontuzji.
 					</p>
+					<iframe
+						width="640"
+						height="315"
+						src="https://www.youtube.com/embed/qnzSnq0fVgY?si=mmU71fNlvfuHcG1S"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						referrerpolicy="strict-origin-when-cross-origin"
+						allowfullscreen></iframe>
 					<p className="read">Czytaj więcej...</p>
-					{/* youtube reference */}
 				</div>
 				<div className="blog__container">
 					<h3 className="blog__topic">
@@ -40,7 +48,16 @@ export default function Blog() {
 						zdrowe przekąski. Wszystkie przepisy są łatwe do przygotowania i
 						zawierają składniki, które dodadzą Ci energii na cały dzień.
 					</p>
-					{/* youtube reference */}
+					<iframe
+						width="640"
+						height="315"
+						src="https://www.youtube.com/embed/AjrvVQ7DHb4?si=JkB7Ay5sb1BQNo-m"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						referrerpolicy="strict-origin-when-cross-origin"
+						allowfullscreen></iframe>
+					<p className="read">Czytaj więcej...</p>
 				</div>
 				<div className="blog__container">
 					<h3 className="blog__topic">
@@ -56,7 +73,16 @@ export default function Blog() {
 						Dowiesz się również, jakie korzyści płyną z regularnego treningu
 						siłowego i jak może on poprawić jakość Twojego życia.
 					</p>
-					{/* youtube reference */}
+					<iframe
+						width="640"
+						height="315"
+						src="https://www.youtube.com/embed/KEXvqo3VGmc?si=WoG0WcFd6FdvI834"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						referrerpolicy="strict-origin-when-cross-origin"
+						allowfullscreen></iframe>
+					<p className="read">Czytaj więcej...</p>
 				</div>
 				<div className="blog__container">
 					<h3 className="blog__topic">
@@ -71,7 +97,16 @@ export default function Blog() {
 						tu również inspirujące historie moich klientów, którzy osiągnęli
 						swoje cele dzięki wytrwałości i determinacji.
 					</p>
-					{/* youtube reference */}
+					<iframe
+						width="640"
+						height="315"
+						src="https://www.youtube.com/embed/fAqN2x97FDU?si=53bL82Rr1NYRxu2L"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						referrerpolicy="strict-origin-when-cross-origin"
+						allowfullscreen></iframe>
+					<p className="read">Czytaj więcej...</p>
 				</div>
 				<div className="blog__container">
 					<h3 className="blog__topic">Korzyści płynące z jogi i stretchingu</h3>
@@ -84,7 +119,16 @@ export default function Blog() {
 						również kilka prostych ćwiczeń, które możesz wykonywać w domu, aby
 						poprawić swoje samopoczucie i kondycję fizyczną.
 					</p>
-					{/* youtube reference */}
+					<iframe
+						width="640"
+						height="315"
+						src="https://www.youtube.com/embed/9cEdwIeLd1A?si=MkjkDJcmw71hMl76"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						referrerpolicy="strict-origin-when-cross-origin"
+						allowfullscreen></iframe>
+					<p className="read">Czytaj więcej...</p>
 				</div>
 				<p className="blog__more">
 					Zapraszam do czytania, komentowania i dzielenia się swoimi

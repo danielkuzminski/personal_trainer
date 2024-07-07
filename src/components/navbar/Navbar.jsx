@@ -7,7 +7,7 @@ import { Link } from "react-router-dom"
 //icons
 import mail from "../../assets/mail.png"
 import call from "../../assets/phone.png"
-import logo from '../../assets/logo.png'
+import logo from "../../assets/logo.png"
 
 export default function Navbar() {
 	return (
@@ -26,9 +26,12 @@ export default function Navbar() {
 					Blog
 				</Link>
 				<div>
-				<img src={call} alt="mobile phone icon" className="navbar__icon" />
-
-				<img src={mail} alt="envelope icon" className="navbar__icon" />
+					<a href="tel:0048000000000">
+						<img src={call} alt="mobile phone icon" className="navbar__icon" />
+					</a>
+					<a href="mailto:someone@example.com">
+						<img src={mail} alt="envelope icon" className="navbar__icon" />
+					</a>
 				</div>
 			</div>
 		</nav>

@@ -8,6 +8,9 @@ import { Link } from "react-router-dom"
 import mail from "../../assets/mail.png"
 import call from "../../assets/phone.png"
 import logo from "../../assets/logo.png"
+import home from "../../assets/home.png"
+import about from "../../assets/about.png"
+import blog from "../../assets/blog.png"
 
 export default function Navbar() {
 	return (
@@ -17,15 +20,18 @@ export default function Navbar() {
 			</p>
 			<div className="navbar__links">
 				<Link className="navbar__link" to="/">
-					Główna
+					<span className="link__text">Główna</span>
+					<img className="link__icon" src={home} alt="" />
 				</Link>
 				<Link className="navbar__link" to="/about">
-					O mnie
+					<span className="link__text">O mnie</span>
+					<img className="link__icon" src={about} alt="" />
 				</Link>
 				<Link className="navbar__link" to="/blog">
-					Blog
+					<span className="link__text">Blog</span>
+					<img className="link__icon" src={blog} alt="" />
 				</Link>
-				<div>
+				<div className="navbar__contact">
 					<a href="tel:0048000000000">
 						<img src={call} alt="mobile phone icon" className="navbar__icon" />
 					</a>

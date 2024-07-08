@@ -6,14 +6,17 @@
 
 	.blog__page {
 		padding-top: 10rem;
-		width: 960px;
+		width: 100%;
 		margin: 0 auto;
 		text-indent: 2rem;
+		display: flex;
+		flex-direction: column;
 
 		.blog__title {
 			-webkit-text-stroke: 2px hotpink;
-			font-size: 5.5rem;
+			font-size: 3.5rem;
 			text-align: center;
+			text-indent: 2rem;
 			font-weight: 700;
 			color: transparent;
 			text-transform: uppercase;
@@ -22,15 +25,35 @@
 		}
 
 		.blog__intro {
-			font-size: 2rem;
-			margin-bottom: 10rem;
+			height: 55rem;
+			/* width: 90%; */
+			/* padding: 20rem 2rem; */
+			background-image: url("../../assets/trainer2.jpeg");
+			background-position: center;
+			background-size: cover;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+			align-items: flex-end;
+			margin: 1rem;
+
+			.blog__intro__text {
+				padding: 2rem;
+				font-size: 1.5rem;
+				margin-bottom: 3rem;
+			}
 		}
 
 		.blog__container {
-			padding: 5rem 15rem;
+			margin: 3rem 1rem;
+			padding: 2rem 4rem;
 			box-shadow: 0 0 10px #000;
-			background-color: rgba(0, 0, 0, 0.2);
-			margin-bottom: 7rem;
+			background-color: rgba(82, 81, 81, 0.2);
+			/* margin-bottom: 7rem; */
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			/* justify-content: center; */
 
 			.blog__topic {
 				font-size: 2.4rem;
@@ -49,15 +72,98 @@
 				cursor: pointer;
 			}
 
-            iframe {
-                margin: 3rem 0;
-                box-shadow: 0 0 .5rem #000;
-            }
+			iframe {
+				width: 320px;
+				aspect-ratio: 16/9;
+				margin: 3rem 0;
+				box-shadow: 0 0 0.5rem #000;
+			}
 		}
 		.blog__more {
-			font-size: 2rem;
-            padding: 2rem 2rem 10rem 2rem;
+			font-size: 1.8rem;
+			margin: 2rem;
+			padding: 2rem 2rem 10rem 2rem;
 			/* padding-bottom: 10rem; */
+		}
+	}
+}
+
+@media screen and (min-width: 450px) {
+	.blog {
+		width: 100vw;
+		min-height: 100vh;
+		background-color: rgba(0, 0, 0, 0.9);
+		color: #fff;
+
+		.blog__page {
+			padding-top: 10rem;
+			max-width: 960px;
+			margin: 0 auto;
+			text-indent: 2rem;
+
+			.blog__title {
+				-webkit-text-stroke: 2px hotpink;
+				font-size: 5.5rem;
+				text-align: center;
+				font-weight: 700;
+				color: transparent;
+				text-transform: uppercase;
+				letter-spacing: 1.5px;
+				margin-bottom: 5rem;
+			}
+
+			.blog__intro {
+				height: 55rem;
+				/* padding: 20rem 2rem; */
+				background-image: url("../../assets/trainer2.jpeg");
+				/* background-position: center; */
+				background-size: cover;
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-end;
+				align-items: flex-end;
+	
+				.blog__intro__text {
+					padding: 4rem;
+					font-size: 1.8rem;
+					margin-bottom: 3rem;
+				}
+			}
+
+			.blog__container {
+				padding: 5rem 15rem;
+				box-shadow: 0 0 10px #000;
+				background-color: rgba(82, 81, 81, 0.2);
+				margin-bottom: 7rem;
+
+				.blog__topic {
+					font-size: 2.4rem;
+					margin-bottom: 3rem;
+				}
+
+				.blog__content {
+					font-size: 1.4rem;
+					line-height: 1.6;
+				}
+
+				.read {
+					text-indent: 0;
+					text-align: right;
+					font-size: 1.2rem;
+					cursor: pointer;
+				}
+
+				iframe {
+					width: 640px;
+					margin: 3rem 0;
+					box-shadow: 0 0 0.5rem #000;
+				}
+			}
+			.blog__more {
+				font-size: 2rem;
+				padding: 2rem 2rem 10rem 2rem;
+				/* padding-bottom: 10rem; */
+			}
 		}
 	}
 }

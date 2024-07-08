@@ -3,16 +3,20 @@ import "./about.css"
 export default function About() {
 	return (
 		<div className="about">
-			<div className="about__left"></div>
+			<div className="about__left">
+				<h1 className="about__left__title">Jesteś gotowa podjąć wyzwanie?</h1>
+			</div>
 			<div className="about__right">
-				<h1 className="about__title section1__title">Jesteś gotowa podjąć wyzwanie?</h1>
+				<h1 className="about__title section1__title">
+					Jesteś gotowa podjąć wyzwanie?
+				</h1>
 				<p className="about__text">
-					Cześć! Jestem Karolina i jestem certyfikowanym trenerem
-					personalnym z wieloletnim doświadczeniem w branży fitness. Moja pasja
-					do zdrowego stylu życia rozpoczęła się wiele lat temu, kiedy sama
-					postanowiłam zmienić swoje nawyki i zatroszczyć się o swoje ciało i
-					umysł. Przeszłam długą drogę, zdobywając wiedzę i doświadczenie, które
-					teraz z radością przekazuję moim klientom.
+					Cześć! Jestem Karolina i jestem certyfikowanym trenerem personalnym z
+					wieloletnim doświadczeniem w branży fitness. Moja pasja do zdrowego
+					stylu życia rozpoczęła się wiele lat temu, kiedy sama postanowiłam
+					zmienić swoje nawyki i zatroszczyć się o swoje ciało i umysł.
+					Przeszłam długą drogę, zdobywając wiedzę i doświadczenie, które teraz
+					z radością przekazuję moim klientom.
 				</p>
 				<p className="about__text">
 					Jako trener personalny wierzę, że każdy z nas ma w sobie potencjał do
@@ -30,12 +34,11 @@ export default function About() {
 					lata.
 				</p>
 				<p className="about__text">
-                Jeżeli jesteś gotowy/gotowa, aby podjąć wyzwanie i zmienić swoje życie na lepsze, zapraszam do kontaktu. Razem osiągniemy Twoje cele i sprawimy, że poczujesz się lepiej w swoim ciele!
-                </p>
-                <p className="about__text">
-                Pozdrawiam serdecznie,
-                Karolina
-                </p>
+					Jeżeli jesteś gotowy/gotowa, aby podjąć wyzwanie i zmienić swoje życie
+					na lepsze, zapraszam do kontaktu. Razem osiągniemy Twoje cele i
+					sprawimy, że poczujesz się lepiej w swoim ciele!
+				</p>
+				<p className="about__text">Pozdrawiam serdecznie, Karolina</p>
 			</div>
 		</div>
 	)

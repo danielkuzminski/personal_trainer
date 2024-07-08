@@ -5,13 +5,16 @@ export default function Blog() {
 		<div className="blog">
 			<div className="blog__page">
 				<h1 className="blog__title">Zdrowy blog</h1>
-				<p className="blog__intro">
-					Witaj na moim blogu! Znajdziesz tutaj inspiracje, porady i wiedzę na
-					temat zdrowego stylu życia, treningów oraz odżywiania. Moim celem jest
-					pomoc w osiągnięciu Twoich celów fitness i poprawie ogólnego
-					samopoczucia. Przeczytaj poniższe artykuły i dołącz do naszej
-					społeczności!
-				</p>
+				<div className="blog__intro">
+					<span className="blog__intro__text">
+						Witaj na moim blogu! Znajdziesz tutaj inspiracje, porady i wiedzę na
+						temat zdrowego stylu życia, treningów oraz odżywiania. Moim celem jest
+						pomoc w osiągnięciu Twoich celów fitness i poprawie ogólnego
+						samopoczucia. Przeczytaj poniższe artykuły i dołącz do naszej
+						społeczności!
+
+					</span>
+				</div>
 				<div className="blog__container">
 					<h3 className="blog__topic">
 						Jak skutecznie planować treningi w domu?
@@ -26,8 +29,7 @@ export default function Blog() {
 						kontuzji.
 					</p>
 					<iframe
-						width="640"
-						height="315"
+						
 						src="https://www.youtube.com/embed/qnzSnq0fVgY?si=mmU71fNlvfuHcG1S"
 						title="YouTube video player"
 						frameborder="0"
@@ -49,8 +51,7 @@ export default function Blog() {
 						zawierają składniki, które dodadzą Ci energii na cały dzień.
 					</p>
 					<iframe
-						width="640"
-						height="315"
+						
 						src="https://www.youtube.com/embed/AjrvVQ7DHb4?si=JkB7Ay5sb1BQNo-m"
 						title="YouTube video player"
 						frameborder="0"
@@ -74,8 +75,7 @@ export default function Blog() {
 						siłowego i jak może on poprawić jakość Twojego życia.
 					</p>
 					<iframe
-						width="640"
-						height="315"
+						
 						src="https://www.youtube.com/embed/KEXvqo3VGmc?si=WoG0WcFd6FdvI834"
 						title="YouTube video player"
 						frameborder="0"
@@ -98,8 +98,7 @@ export default function Blog() {
 						swoje cele dzięki wytrwałości i determinacji.
 					</p>
 					<iframe
-						width="640"
-						height="315"
+						
 						src="https://www.youtube.com/embed/fAqN2x97FDU?si=53bL82Rr1NYRxu2L"
 						title="YouTube video player"
 						frameborder="0"
@@ -120,8 +119,7 @@ export default function Blog() {
 						poprawić swoje samopoczucie i kondycję fizyczną.
 					</p>
 					<iframe
-						width="640"
-						height="315"
+						
 						src="https://www.youtube.com/embed/9cEdwIeLd1A?si=MkjkDJcmw71hMl76"
 						title="YouTube video player"
 						frameborder="0"

@@ -11,9 +11,9 @@ export default function Footer() {
 		<footer className="foot">
 			<div className="foot__contact"></div>
 			<div className="foot__social">
-				<img className="foot__img" src={tiktok} alt="" />
 				<img className="foot__img" src={yt} alt="" />
 				<img className="foot__img" src={linked} alt="" />
+				<img className="foot__img" src={tiktok} alt="" />
 				<img className="foot__img" src={facebook} alt="" />
 				<img className="foot__img" src={insta} alt="" />
 			</div>

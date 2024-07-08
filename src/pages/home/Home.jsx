@@ -14,7 +14,9 @@ export default function Home() {
 						zwiększonej pewności siebie? Nasz wykwalifikowany trener osobisty
 						jest tutaj, aby Ci pomóc!
 					</p>
-					<button className="cta">Umów się</button>
+					<button className="cta">
+						<a href="tel:0048000000000">Umów się</a>
+					</button>
 				</div>
 			</section>
 			<section className="section2">
@@ -24,7 +26,8 @@ export default function Home() {
 						<h4 className="section2__top__title">Siłownia</h4>
 						<p className="section2__top__text">
 							Regularne treningi na siłowni pomagają w budowaniu masy
-							mięśniowej, spalaniu tkanki tłuszczowej, poprawie kondycji i zdrowia.
+							mięśniowej, spalaniu tkanki tłuszczowej, poprawie kondycji i
+							zdrowia.
 						</p>
 					</div>
 					<div className="section2__container">
@@ -61,7 +64,9 @@ export default function Home() {
 							poprawić swoje samopoczucie ogólne - jestem tutaj, by Ci pomóc na
 							każdym kroku.
 						</p>
-						<button className="cta2">Skontaktuj się ze mną już dziś</button>
+						<button className="cta2">
+							<a href="tel:0048000000000">Skontaktuj się już dziś</a>
+						</button>
 					</div>
 					<div className="section3__right"></div>
 				</div>

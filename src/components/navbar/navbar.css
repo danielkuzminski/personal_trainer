@@ -1,8 +1,8 @@
 .navbar {
-	width: 100%;
+	width: 100vw;
 	height: 12vh;
 	position: absolute;
-	top: 0;
+	top: 88vh;
 	left: 0;
 	display: flex;
 	align-items: center;
@@ -14,10 +14,19 @@
 			width: 5rem;
 			height: 5rem;
 			display: flex;
+			position: absolute;
+			top: -85vh;
+			left: 0;
 		}
 	}
 	.navbar__links {
 		display: flex;
+
+		/*  */
+		align-items: center;
+		justify-content: center;
+		width: 100vw;
+		gap: 2rem;
 
 		.navbar__link {
 			display: flex;
@@ -26,7 +35,7 @@
 			.link__text {
 				display: none;
 			}
-
+			
 			.link__icon {
 				display: block;
 				margin-right: 1.4rem;
@@ -39,8 +48,8 @@
 		.navbar__contact {
 			display: flex;
 			align-items: center;
-			/* gap: 2rem; */
-			margin-right: 2rem;
+			gap: 2rem;
+			/* margin-left: 2rem; */
 
 			.navbar__icon {
 				margin-right: 1.4rem;
@@ -58,16 +67,26 @@
 		font-size: 2rem;
 		text-transform: uppercase;
 		font-weight: 200;
+		/* position: absolute; */
+		top: 0;
+		left: 0;
 
 		.logo {
 			.company__logo {
 				margin-left: 1rem;
+				position: absolute;
+			top: 2.5rem;
+			left: 2.5rem;
 			}
 		}
 
 		.navbar__links {
 			display: flex;
 
+			align-items: center;
+		justify-content: flex-end;
+		width: 100vw;
+		gap: 0rem;
 			.navbar__link {
 				display: block;
 				padding: 0.5rem;
@@ -85,6 +104,7 @@
 			}
 
 			.navbar__contact {
+				margin-right: 3rem;
 				.navbar__icon {
 					width: 3rem;
 					height: 3rem;

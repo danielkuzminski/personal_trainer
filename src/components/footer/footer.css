@@ -1,17 +1,15 @@
 .foot {
-    width: 100vw;
-    height: 10vh;
+    width: 14vw;
+    height: 100vh;
     background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: fixed;
-    bottom: 0;
-    left: 0;
-    /* padding-bottom: 2rem; */
+    bottom: 14rem;
+    left: 1.4rem;
 
     .foot__contact {
-        /* margin-left: 4rem; */
         display: flex;
         gap: 2.5rem;
     }
@@ -20,15 +18,16 @@
         width: 100%;
         height: 100%;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 3rem;
-        background-color: black;
+        gap: 2rem;
+        /* background-color: black; */
     }
 
     .foot__img {
-        width: 5rem;
-        height: 5rem;
+        width: 3rem;
+        height: 3rem;
         cursor: pointer;
     }
 }
@@ -56,10 +55,12 @@
     
         .foot__social {
             display: flex;
+            flex-direction: row;
             justify-content: flex-start;
             gap: 1.8rem;
             margin-right: 4rem;
             background-color: transparent;
+            /* padding-left: 3rem; */
         }
     
         .foot__img {

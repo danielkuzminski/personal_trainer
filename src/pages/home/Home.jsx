@@ -14,6 +14,9 @@ export default function Home() {
 						zwiększonej pewności siebie? Nasz wykwalifikowany trener osobisty
 						jest tutaj, aby Ci pomóc!
 					</p>
+					<p className="section1__text__mobile">
+					Marzysz o lepszej kondycji fizycznej?
+					</p>
 					<button className="cta">
 						<a href="tel:0048000000000">Umów się</a>
 					</button>
